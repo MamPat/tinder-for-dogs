@@ -140,6 +140,14 @@ background-color: #ff4c68;
     }
 }
 
+/* Call to action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+     text-align: center;
+    padding: 12% 15% 8%;
+}
 
 
 /* <!-- Footer --> */
