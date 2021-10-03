@@ -73,7 +73,7 @@ h3{
 width: 60%;
 transform: rotate(25deg);
 position: absolute;
-right: 25%;
+right: 1%;
 }
 
 
@@ -166,3 +166,46 @@ background-color: #ff4c68;
     font-family: "Ubuntu";
     color: gray;
 }
+
+
+.wrapper{
+    display: inline-flex;
+}
+.wrapper .static-text{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 90px;
+}
+.wrapper .dynamic-text{
+margin-bottom: 5px;
+margin-right: 105px;
+}
+.dynamic-text li{
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    color:#eaeaea;
+    left: 10%;
+}
+.dynamic-text li span{
+    position: relative;
+}
+.dynamic-text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background: #ff4c68;
+    border-left: 2px solid #eaeaea;
+    animation: typing 1.5s steps(7) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+margin: 0 -35px 0 35px;
+    }
+}
+
