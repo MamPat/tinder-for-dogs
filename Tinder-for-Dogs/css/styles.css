@@ -1,10 +1,10 @@
 body{    
     font-family:"Montserrat";
-    font-weight: 400;
+    font-weight: 300;
 }
 h1{
     font-family:"Montserrat";
-    font-weight: 900;
+    font-weight: 800;
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -18,7 +18,7 @@ h2{
 
 h3{
     font-weight: 600;
-    font-size: medium;
+    font-size: large;
     color: rgba(0, 0, 0, 0.733);
 }
 #title{
@@ -78,7 +78,7 @@ right: 1%;
 
 
 .feature-box{
-    color: grey;
+    color: white;
     text-align: center;
     padding:2%;
 }
