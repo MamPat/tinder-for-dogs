@@ -60,9 +60,12 @@ h3{
 }
 
 .nav-link{
-    font-size: 1.2rem;
+    font-size: 22px;
     font-family: "Ubuntu";
     font-weight: lighter;
+    color: #ffffff;
+    border: 1px solid rgb(102, 235, 14);
+    border-radius: 8px;
 }
 
 .download-button{
@@ -143,9 +146,10 @@ background-color: #ff4c68;
 /* Call to action */
 
 #cta{
-    background-color: #ff4c68;
+    background-color: #d31785;
     color: #fff;
-     text-align: center;
+    text-align: center;
+    font-size: 29px;
     padding: 12% 15% 8%;
 }
 
@@ -185,7 +189,7 @@ margin-right: 105px;
     list-style: none;
     font-size: 40px;
     font-weight: 500;
-    color:#eaeaea;
+    color:#e4c40d;
     left: 10%;
 }
 .dynamic-text li span{
