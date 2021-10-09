@@ -1,16 +1,16 @@
 body{    
-    font-family:"Montserrat";
+    font-family:"sans-serif";
     font-weight: 400;
 }
 h1{
-    font-family:"Montserrat";
+    font-family:"sans-serif";
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h2{
-    font-family: "Montserrat";
+    font-family: "sans-serif";
     font-weight: 600;    
     font-size: 2rem;
     line-height: 1.5;
@@ -22,7 +22,7 @@ h3{
     color: rgba(0, 0, 0, 0.733);
 }
 #title{
-    background-color: #ff4c68;
+    background-color: #8a49f3;
     color: #fff;
 }
 
