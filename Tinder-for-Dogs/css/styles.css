@@ -189,7 +189,7 @@ margin-right: 105px;
     list-style: none;
     font-size: 40px;
     font-weight: 500;
-    color:#e4c40d;
+    color:#69d7ff;
     left: 10%;
 }
 .dynamic-text li span{
@@ -204,7 +204,7 @@ margin-right: 105px;
 
     background: #ff4c68;
     border-left: 2px solid #eaeaea;
-    animation: typing 1.5s steps(7) infinite;
+    animation: typing 2s steps(7) infinite;
 }
 @keyframes typing{
     100%{
