@@ -22,7 +22,7 @@ h3{
     color: rgba(0, 0, 0, 0.733);
 }
 #title{
-    background-color: #ff4c68;
+    background-color: #c76617d8;
     color: #fff;
 }
 
@@ -37,7 +37,7 @@ h3{
 }
 
 .present:hover{
-    color:#ff4c68;
+    color:#ec430f;
 
 }
 
@@ -63,8 +63,8 @@ h3{
     font-size: 22px;
     font-family: "Ubuntu";
     font-weight: lighter;
-    color: #ffffff;
-    border: 1px solid rgb(102, 235, 14);
+    color: #cac0c0;
+    border: 1px solid rgb(228, 230, 227);
     border-radius: 8px;
 }
 
@@ -81,7 +81,7 @@ right: 1%;
 
 
 .feature-box{
-    color: grey;
+    color: rgb(37, 37, 37);
     text-align: center;
     padding:2%;
 }
@@ -90,14 +90,14 @@ right: 1%;
 
 #features{
     padding: 7% 7%;
-    background-color: #fff;
+    background-color: rgb(255, 241, 241);
     position: relative;    
     z-index: 1;
 }
 
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
+    background-color: #e42309;
     color: #fff;
 }
 
@@ -111,7 +111,7 @@ right: 1%;
     padding:1%;
 }
 #press{    
-    background-color: #ef8172;
+    background-color: #eb9310;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -129,7 +129,7 @@ right: 1%;
 }
 .card-header{
 
-background-color: #ff4c68;
+background-color: #f05f0b;
 }
 
 @media (max-width:1000px){
@@ -146,7 +146,7 @@ background-color: #ff4c68;
 /* Call to action */
 
 #cta{
-    background-color: #d31785;
+    background-color: #d36217;
     color: #fff;
     text-align: center;
     font-size: 29px;
