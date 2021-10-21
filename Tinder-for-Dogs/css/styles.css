@@ -64,7 +64,7 @@ h3{
     font-family: "Ubuntu";
     font-weight: lighter;
     color: #ffffff;
-    border: 1px solid rgb(102, 235, 14);
+    border: 1px solid white;
     border-radius: 8px;
 }
 
@@ -161,9 +161,13 @@ background-color: #ff4c68;
     padding: 3% 15%;
 }
 
+
 .symbol{
     padding: 2%;
-    color: rgba(0, 0, 0, 0.65);
+    color:red;
+}
+.symbol:hover{
+    color: #ff4c68;
 }
 
 .foot{
@@ -189,7 +193,7 @@ margin-right: 105px;
     list-style: none;
     font-size: 40px;
     font-weight: 500;
-    color:#e4c40d;
+    color:greenyellow;
     left: 10%;
 }
 .dynamic-text li span{
@@ -209,7 +213,7 @@ margin-right: 105px;
 @keyframes typing{
     100%{
         left: 100%;
-margin: 0 -35px 0 35px;
+        margin: 0 -35px 0 35px;
     }
 }
 
