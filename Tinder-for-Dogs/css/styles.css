@@ -65,8 +65,14 @@ h3{
     font-weight: lighter;
     color: #ffffff;
     border: 1px solid rgb(102, 235, 14);
-    border-radius: 8px;
+    border-radius: 30%;
 }
+.nav-item a:hover{
+    color: red;
+    
+
+}
+
 
 .download-button{
     margin: 5% 3% 5% 0;
