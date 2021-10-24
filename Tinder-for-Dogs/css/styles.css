@@ -5,14 +5,14 @@ body{
 h1{
     font-family:"Montserrat";
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3px;
     line-height: 1.5;
 }
 
 h2{
     font-family: "Montserrat";
     font-weight: 600;    
-    font-size: 2rem;
+    font-size: 2px;
     line-height: 1.5;
 }
 
@@ -33,7 +33,7 @@ h3{
 
 
 .present{
-    padding-bottom: 13px;
+    padding-bottom: 13%;
 }
 
 .present:hover{
@@ -50,7 +50,7 @@ h3{
 
 
 .navbar-brand{
-    font-family: "Ubuntu";
+    font-family: "comic sans ms";
     font-size: 2rem;
     font-weight: bold;
 }
@@ -143,7 +143,7 @@ background-color: #ff4c68;
     }
 }
 
-/* Call to action */
+
 
 #cta{
     background-color: #d31785;
@@ -154,7 +154,7 @@ background-color: #ff4c68;
 }
 
 
-/* <!-- Footer --> */
+
 
 #footer{
     text-align: center;
@@ -191,6 +191,7 @@ margin-right: 105px;
     font-weight: 500;
     color:#e4c40d;
     left: 10%;
+    top: 45%;
 }
 .dynamic-text li span{
     position: relative;
