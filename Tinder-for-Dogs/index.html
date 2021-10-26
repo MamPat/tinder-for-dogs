@@ -197,7 +197,7 @@
         <p>Unlimited Matches</p>
         <p>Unlimited Messages</p>
         <p>Unlimited App Usage</p>
-        <button class="btn btn-lg btn-block btn-dark"  type="button">Sign Up</button>
+        <button class="btn btn-lg btn-block btn-outline-dark"  type="button">Sign Up</button>
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@
         <p>Unlimited Matches</p>
         <p>Unlimited Messages</p>
         <p>Unlimited App Usage</p>
-        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+        <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
           </div>
         </div>
       </div>  
@@ -275,7 +275,14 @@
     <p class="foot">© Copyright 2021 TinDog</p>
 
   </footer>
-
+<script>
+  $('.nav-link, .navbar-brand, .new-button').click(function() {
+    var sectionTo = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(sectionTo).offset().top
+    }, 1500);
+});
+</script>
 
 </body>
 
