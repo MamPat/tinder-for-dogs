@@ -22,7 +22,7 @@ h3{
     color: rgba(0, 0, 0, 0.733);
 }
 #title{
-    background-color: #ff4c68;
+    background-color: #00aa9c;
     color: #fff;
 }
 
@@ -37,7 +37,7 @@ h3{
 }
 
 .present:hover{
-    color:#ff4c68;
+    color:#ecc5cb;
 
 }
 
@@ -62,9 +62,9 @@ h3{
 .nav-link{
     font-size: 22px;
     font-family: "Ubuntu";
-    font-weight: lighter;
+    font-weight: bold;
     color: #ffffff;
-    border: 1px solid rgb(102, 235, 14);
+    border: 2px solid rgb(252, 255, 250);
     border-radius: 8px;
 }
 
@@ -84,20 +84,21 @@ right: 1%;
     color: grey;
     text-align: center;
     padding:2%;
+    background-color: rgb(235, 255, 188);
 }
 
 
 
 #features{
     padding: 7% 7%;
-    background-color: #fff;
+    background-color: rgb(172, 255, 146);
     position: relative;    
     z-index: 1;
 }
 
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
+    background-color: #6b375c;
     color: #fff;
 }
 
@@ -111,7 +112,7 @@ right: 1%;
     padding:1%;
 }
 #press{    
-    background-color: #ef8172;
+    background-color: #81fad2;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -123,13 +124,14 @@ right: 1%;
 #pricing{
     padding:100px;
     text-align: center;
+    background-color: rgb(206, 86, 31);
 }
 .pricing-column{
     padding:3% 2%;
 }
 .card-header{
 
-background-color: #ff4c68;
+background-color: #f8e7df;
 }
 
 @media (max-width:1000px){
@@ -146,7 +148,7 @@ background-color: #ff4c68;
 /* Call to action */
 
 #cta{
-    background-color: #d31785;
+    background-color: #c992b2;
     color: #fff;
     text-align: center;
     font-size: 29px;
@@ -168,7 +170,7 @@ background-color: #ff4c68;
 
 .foot{
     font-family: "Ubuntu";
-    color: gray;
+    color: rgb(240, 232, 232);
 }
 
 
@@ -187,9 +189,9 @@ margin-right: 105px;
 }
 .dynamic-text li{
     list-style: none;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
-    color:#e4c40d;
+    color:#fdfdfb;
     left: 10%;
 }
 .dynamic-text li span{
@@ -202,7 +204,7 @@ margin-right: 105px;
     height: 100%;
     width: 100%;
 
-    background: #ff4c68;
+    background: #f5f4f4;
     border-left: 2px solid #eaeaea;
     animation: typing 1.5s steps(7) infinite;
 }
