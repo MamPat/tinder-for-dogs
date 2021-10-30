@@ -21,6 +21,9 @@ h3{
     font-size: medium;
     color: rgba(0, 0, 0, 0.733);
 }
+/* #name:hover{
+    color: #e4c40d;
+} */
 #title{
     background-color: #ff4c68;
     color: #fff;
@@ -54,6 +57,12 @@ h3{
     font-size: 2rem;
     font-weight: bold;
 }
+
+.navbar-brand:hover{
+    background-color:rgba(0, 0, 0, 0.733);
+    border: 10px solid aqua;    
+}
+
 
 .nav-item{
     padding: 0 15px;
@@ -99,6 +108,11 @@ right: 1%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+#testimonials:hover{
+    text-align: center;
+    background-color:black;
+    color:rgb(102, 235, 14);
 }
 
 .carousel-item{
